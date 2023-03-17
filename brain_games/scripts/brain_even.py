@@ -3,9 +3,10 @@
 
 import brain_games.cli
 import brain_games.even
+
+
 def main():
-    brain_games.cli.welcome_user()
-    brain_games.even.start_game()
+    print('Welcome to the Brain Games!')
     brain_games.even.answer_from_user()
 
 
