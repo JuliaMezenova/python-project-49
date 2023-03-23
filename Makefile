@@ -1,5 +1,5 @@
 setup:
-	install brain-games brain-even build publish package-install
+	install brain-games brain-even brain-calc build publish package-install
 
 install:
 	poetry install
@@ -10,6 +10,8 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
+brain-calc:
+	poetry run brain-calc
 build:
 	poetry build
 
