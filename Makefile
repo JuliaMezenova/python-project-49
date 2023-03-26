@@ -1,5 +1,5 @@
 setup:
-	install brain-games brain-even brain-calc brain-gcd build publish package-install
+	install brain-games brain-even brain-calc brain-gcd brain-progression build publish package-install
 
 install:
 	poetry install
@@ -16,6 +16,9 @@ brain-calc:
 brain-gcd:
 	poetry run brain-gcd
 
+brain-progression:
+	poetry run brain-progression
+
 build:
 	poetry build
 
@@ -23,7 +26,7 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	python3 -m pip install --user dist/hexlet_code-0.1.1-py3-none-any.whl
+	python3 -m pip install --user dist/hexlet_code-0.1.2-py3-none-any.whl
 
 lint:
 	poetry run flake8 brain_games
