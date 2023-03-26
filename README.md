@@ -5,5 +5,6 @@
 Asciinema: Запись игры Brain-even  https://asciinema.org/a/REsMCpf3oyTbVfENc6LkHudiT
 Asciinema: Запись игры Brain-calc  https://asciinema.org/a/q7b4gH0fOEwqqTd8b7VhINKoU
 Asciinema: Запись игры Brain-gcd  https://asciinema.org/a/RR2r14DRPgC8qcJTY2ug0oInV
+Asciinema: Запись игры Brain-progression  https://asciinema.org/a/M83dlhfi1sI3RntIQOke6jpFx
 =======
 >>>>>>> parent of c5ada52... update README.md
