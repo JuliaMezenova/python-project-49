@@ -1,5 +1,5 @@
 setup:
-	install brain-games brain-even brain-calc brain-gcd brain-progression build publish package-install
+	install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build publish package-install
 
 install:
 	poetry install
@@ -18,6 +18,9 @@ brain-gcd:
 
 brain-progression:
 	poetry run brain-progression
+
+brain-prime:
+	poetry run brain-prime
 
 build:
 	poetry build
