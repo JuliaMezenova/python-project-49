@@ -12,5 +12,4 @@ def game_logic():
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    
     return (question, right_answer)

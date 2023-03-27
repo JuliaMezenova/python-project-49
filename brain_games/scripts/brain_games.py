@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-import re
-import sys
+
 
 from brain_games.games.cli import welcome_user
 

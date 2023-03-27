@@ -11,7 +11,7 @@ def game_logic():
     stop = random.randint(99, 100)
     step = random.randint(1, 10)
     first_progression = list(range(start, stop, step))
-    progression =first_progression[:10]
+    progression = first_progression[:10]
     right_answer = random.choice(progression)
     index_of_right_answer = progression.index(right_answer)
     progression[index_of_right_answer] = '..'

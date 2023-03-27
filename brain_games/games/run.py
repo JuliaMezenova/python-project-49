@@ -12,9 +12,10 @@ def answer_from_user(game):
         print("Question: " + str(question))
         answer = prompt.string("Your answer: ")
         if answer != str(right_answer):
-            print("'" + answer + "'" + " is wrong answer ;(. Correct answer was '" + str(right_answer) + "'.\nLet\'s try again, " +name + "!")
+            print("'" + answer + "'" + " is wrong answer ;(. Correct answer was '" + str(right_answer) + "'.\n"
+            "Let's try again, " + name + "!")
             return
         else:
             print('Correct!')
             n += 1
-    print('Congratulations, ' + name + '!')    
+    print('Congratulations, ' + name + '!')
