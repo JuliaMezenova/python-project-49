@@ -1,5 +1,4 @@
 import random
-import sympy
 
 
 def start_game():
@@ -8,8 +7,12 @@ def start_game():
 
 
 def game_logic():
-    question = random.randint(1, 200)
-    if sympy.isprime(question):
+    question = random.randint(2, 200)
+    counter = 0
+    for divisor in range(2, question // 2+1):
+        if (question % divisor == 0):
+            counter += 1
+    if counter <= 0:
         right_answer = 'yes'
     else:
         right_answer = 'no'
