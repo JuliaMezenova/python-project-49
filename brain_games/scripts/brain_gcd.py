@@ -2,12 +2,12 @@
 
 
 import brain_games.games.gcd
-import brain_games.games.run
+import brain_games.engine
 
 
 def main():
     game = brain_games.games.gcd
-    brain_games.games.run.answer_from_user(game)
+    brain_games.engine.run_game(game)
 
 
 if __name__ == '__main__':

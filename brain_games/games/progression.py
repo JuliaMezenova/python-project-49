@@ -1,12 +1,10 @@
 import random
 
 
-def start_game():
-    start_game = 'What number is missing in the progression?'
-    print(start_game)
+TARGET_OF_GAME = 'What number is missing in the progression?'
 
 
-def game_logic():
+def generate_question_and_answer():
     start = random.randint(1, 10)
     stop = random.randint(99, 100)
     step = random.randint(1, 10)

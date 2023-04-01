@@ -1,14 +1,14 @@
 import prompt
 
 
-def answer_from_user(game):
+def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    game.start_game()
+    print(game.TARGET_OF_GAME)
     n = 1
     while n <= 3:
-        question, right_answer = game.game_logic()
+        question, right_answer = game.generate_question_and_answer()
         print("Question: " + str(question))
         answer = prompt.string("Your answer: ")
         if answer != str(right_answer):

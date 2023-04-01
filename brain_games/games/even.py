@@ -1,12 +1,10 @@
 import random
 
 
-def start_game():
-    start_game = 'Answer "yes" if the number is even, otherwise answer "no".'
-    print(start_game)
+TARGET_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_logic():
+def generate_question_and_answer():
     question = random.randint(1, 100)
     if question % 2 == 0:
         right_answer = 'yes'

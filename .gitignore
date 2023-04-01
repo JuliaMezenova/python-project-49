@@ -1,6 +1,5 @@
 /.venv/
-brain_games/**/*.pyc
+**/__pycache__/
 setup.cfg_
 /dist/
 poetry.lock
-
